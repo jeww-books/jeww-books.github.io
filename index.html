@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Novel Web</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="icons.css">
+</head>
+<body>
+    <div class="scroll-watcher">
+
+    </div>
+    <header class="first-header">
+        <h1 class="name">
+            Jeww-Books
+        </h1>
+
+        <h1 class="nav-toggler" id="open">
+            &#9776;
+        </h1>
+
+        <nav class="inline">
+            <ul>
+                <li>
+                    <a href="">Home</a>
+                    <a href="">About</a>
+                    <a href="">Books</a>
+                    <a href="">Series</a>
+                    <a href="">Blogs</a>
+                    <a href="">Newsletter</a><a href="">Premiums</a>
+                    <a href="vvvv">Categories</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <header class="second-header">
+        <div class="nav">
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+                    <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z" />
+                </svg>
+            </a>
+            <div class="tool-tip">
+                Home
+            </div>
+        </div>
+
+
+        <div class="nav">
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                </svg>
+            </a>
+            <div class="tool-tip">
+                Search
+            </div>
+        </div>
+
+        <div class="nav">
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16">
+                    <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2M8 1.918l-.797.161A4 4 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4 4 0 0 0-3.203-3.92zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5 5 0 0 1 13 6c0 .88.32 4.2 1.22 6" />
+                </svg>
+            </a>
+            <div class="tool-tip">
+                Notification
+            </div>
+        </div>
+
+        <div class="nav">
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+                    <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5" />
+                </svg>
+            </a>
+            <div class="tool-tip">
+                Community
+            </div>
+        </div>
+
+        <div class="nav">
+            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
+                <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001m-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708z" />
+            </svg></a>
+            <div class="tool-tip">
+                Write
+            </div>
+        </div>
+
+        <div class="nav">
+            <a href="#">
+
+
+            </a>
+            <div class="tool-tip">
+                Account
+            </div>
+        </div>
+    </header>
+    <menu id="menu">
+        <h1 id="cancel">&times;</h1>
+        <ul>
+
+
+            <li class="categories">
+                CATEGORIES
+            </li>
+            <li><a href="">Textbooks</a></li>
+            <li><a href="">
+                Romance
+            </a></li>
+            <li><a href="">Adventure</a></li>
+            <li><a href="">Thriller</a></li>
+            <li><a href="">Fantasy</a></li>
+            <li><a href="">Young Adult</a></li>
+            <li><a href="">Mystery</a></li>
+            <li><a href="">Historical</a></li>
+            <li><a href="">Horrow</a></li>
+            <li><a href="">Mafia</a></li>
+            <li><a href="">Billionaire</a></li>
+            <li><a href="">Science Fiction</a></li>
+            <li><a href="">Christian</a></li>
+
+            <li class="categories">
+                AGE
+            </li>
+            <li><a href="">Kids</a></li>
+            <li><a href="">10+</a></li>
+            <li><a href="">13+</a></li>
+            <li><a href="">16+</a></li>
+            <li><a href="">18+</a></li>
+        </ul>
+
+
+
+    </menu>
+
+    <div class="aside">
+
+
+    </div>
+
+
+    <main>
+
+        <div class="story-box">
+            <div class="novel-image n-i">
+
+
+            </div>
+
+            <div class="novel-panel">
+                <div class="novel-title">
+
+                    <h3>
+                        Beauty From Pain
+                    </h3>
+                </div>
+
+
+                <div class="novel-title-category">
+
+                    <h4>
+                        Romance
+                    </h4>
+                </div>
+
+                <div class="novel-title-age">
+                    <h5>18+</h5>
+                </div>
+                <div class="novel-title-part">
+                    <h4>Completed</h4>
+                </div>
+                <a href="https://bookreadfree.com/1153/35584" class="novel-read">
+                    Read Now
+                </a>
+            </div>
+        </div>
+
+
+
+
+        <div class="story-box">
+            <div class="novel-image n-ii">
+
+
+            </div>
+
+            <div class="novel-panel">
+                <div class="novel-title">
+
+                    <h3>
+                        Trust
+                    </h3>
+                </div>
+
+
+                <div class="novel-title-category">
+
+                    <h4>
+                        Romance
+                    </h4>
+                </div>
+
+                <div class="novel-title-age">
+                    <h5>18+</h5>
+                </div>
+                <div class="novel-title-part">
+                    <h4>Completed</h4>
+                </div>
+                <a href="https://bookreadfree.com/174209/4309337" class="novel-read">
+                    Read Now
+                </a>
+            </div>
+        </div>
+
+
+        <div class="story-box">
+            <div class="novel-image n-iii">
+
+
+            </div>
+
+            <div class="novel-panel">
+                <div class="novel-title">
+
+                    <h3>
+                        The Bird Tribunal
+                    </h3>
+                </div>
+
+
+                <div class="novel-title-category">
+
+                    <h4>
+                        Fiction
+                    </h4>
+                </div>
+
+                <div class="novel-title-age">
+                    <h5>13+</h5>
+                </div>
+                <div class="novel-title-part">
+                    <h4>Completed</h4>
+                </div>
+                <a href="https://bookreadfree.com/572909/14064123" class="novel-read">
+                    Read Now
+                </a>
+            </div>
+        </div>
+
+
+
+        <div class="story-box">
+            <div class="novel-image n-iv">
+
+
+            </div>
+
+            <div class="novel-panel">
+                <div class="novel-title">
+
+                    <h3>
+                        The Shadow Rising
+                    </h3>
+                </div>
+
+
+                <div class="novel-title-category">
+
+                    <h4>
+                        Fantasy
+                    </h4>
+                </div>
+
+                <div class="novel-title-age">
+                    <h5>13+</h5>
+                </div>
+                <div class="novel-title-part">
+                    <h4>Completed</h4>
+                </div>
+                <a href="https://bookreadfree.com/16410/448615" class="novel-read">
+                    Read Now
+                </a>
+            </div>
+        </div>
+
+
+
+        <div class="story-box">
+            <div class="novel-image n-v">
+
+
+            </div>
+
+            <div class="novel-panel">
+                <div class="novel-title">
+
+                    <h3>
+                        Shatter Me
+                    </h3>
+                </div>
+
+
+                <div class="novel-title-category">
+
+                    <h4>
+                        Science
+                    </h4>
+                </div>
+
+                <div class="novel-title-age">
+                    <h5>13+</h5>
+                </div>
+                <div class="novel-title-part">
+                    <h4>Completed</h4>
+                </div>
+                <a href="https://bookreadfree.com/39/1454" class="novel-read">
+                    Read Now
+                </a>
+            </div>
+        </div>
+
+
+
+        <div class="story-box">
+            <div class="novel-image n-vi">
+
+
+            </div>
+
+            <div class="novel-panel">
+                <div class="novel-title">
+
+                    <h3>
+                        Unexpected Fate
+                    </h3>
+                </div>
+
+
+                <div class="novel-title-category">
+
+                    <h4>
+                        Contemporary
+                    </h4>
+                </div>
+
+                <div class="novel-title-age">
+                    <h5>16+</h5>
+                </div>
+                <div class="novel-title-part">
+                    <h4>Completed</h4>
+                </div>
+                <a href="https://bookreadfree.com/151/5796" class="novel-read">
+                    Read Now
+                </a>
+            </div>
+        </div>
+
+
+
+        <div class="story-box">
+            <div class="novel-image n-vii">
+
+
+            </div>
+
+            <div class="novel-panel">
+                <div class="novel-title">
+
+                    <h3>
+                        Unexpected Fate
+                    </h3>
+                </div>
+
+
+                <div class="novel-title-category">
+
+                    <h4>
+                        Contemporary
+                    </h4>
+                </div>
+
+                <div class="novel-title-age">
+                    <h5>16+</h5>
+                </div>
+                <div class="novel-title-part">
+                    <h4>Completed</h4>
+                </div>
+                <a href="https://bookreadfree.com/151/5796" class="novel-read">
+                    Read Now
+                </a>
+            </div>
+        </div>
+
+
+        <div class="story-box">
+            <div class="novel-image n-viii">
+
+
+            </div>
+
+            <div class="novel-panel">
+                <div class="novel-title">
+
+                    <h3>
+                        Unexpected Fate
+                    </h3>
+                </div>
+
+
+                <div class="novel-title-category">
+
+                    <h4>
+                        Contemporary
+                    </h4>
+                </div>
+
+                <div class="novel-title-age">
+                    <h5>16+</h5>
+                </div>
+                <div class="novel-title-part">
+                    <h4>Completed</h4>
+                </div>
+                <a href="https://bookreadfree.com/151/5796" class="novel-read">
+                    Read Now
+                </a>
+            </div>
+        </div>
+
+
+
+
+        <div class="story-box">
+            <div class="novel-image n-ix">
+
+
+            </div>
+
+            <div class="novel-panel">
+                <div class="novel-title">
+
+                    <h3>
+                        Unexpected Fate
+                    </h3>
+                </div>
+
+
+                <div class="novel-title-category">
+
+                    <h4>
+                        Contemporary
+                    </h4>
+                </div>
+
+                <div class="novel-title-age">
+                    <h5>16+</h5>
+                </div>
+                <div class="novel-title-part">
+                    <h4>Completed</h4>
+                </div>
+                <a href="https://bookreadfree.com/151/5796" class="novel-read">
+                    Read Now
+                </a>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="story-box">
+            <div class="novel-image n-x">
+
+
+            </div>
+
+            <div class="novel-panel">
+                <div class="novel-title">
+
+                    <h3>
+                        Unexpected Fate
+                    </h3>
+                </div>
+
+
+                <div class="novel-title-category">
+
+                    <h4>
+                        Contemporary
+                    </h4>
+                </div>
+
+                <div class="novel-title-age">
+                    <h5>16+</h5>
+                </div>
+                <div class="novel-title-part">
+                    <h4>Completed</h4>
+                </div>
+                <a href="https://bookreadfree.com/151/5796" class="novel-read">
+                    Read Now
+                </a>
+            </div>
+        </div>
+
+
+
+
+
+    </main>
+
+
+    <footer>
+
+
+
+
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

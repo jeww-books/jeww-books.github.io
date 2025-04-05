@@ -1,0 +1,39 @@
+.nav {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.second-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+}
+.nav a {
+    color: #fff;
+}
+.tool-tip {
+    position: absolute;
+    flex: 1 0 auto;
+    height: 30px;
+    background: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    transition:all  .50s;
+    dispay: none;
+    opacity: 0;
+    transform: translateY(-40px);
+}
+
+.nav a:hover + .tool-tip {
+    display: flex;
+    opacity: 1;
+}
